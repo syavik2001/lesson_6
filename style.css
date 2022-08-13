@@ -20,6 +20,7 @@ html {
 	min-width: 1vw;
 	max-width: 1920px;
 	height: 1000px;
+	margin: 0 auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 0;
@@ -434,7 +435,6 @@ html {
 
 .container__statistic {
 	max-width: 1920px;
-	min-width: 1vw;
 	overflow: hidden;
 	min-height: 270px;
 	margin: 0 auto;
@@ -535,7 +535,6 @@ html {
 
 .container__services {
 	max-width: 1920px;
-	min-width: 1vw;
 	overflow: hidden;
 	min-height: 650px;
 	margin: 0 auto;
@@ -621,7 +620,6 @@ html {
 
 .container__design {
 	max-width: 1920px;
-	min-width: 1vw;
 	min-height: 850x;
 	margin: 0 auto;
 	background-image: url(images/nature.jpg);
@@ -1183,6 +1181,7 @@ html {
 /*====================================================*/
 
 .review-second {
+	max-width: 1920px;
 	min-height: 440px;
 	background-color: #fff;
 	padding: 4% 0;
@@ -1407,7 +1406,6 @@ html {
 /*=====================================================*/
 
 .map__container {
-	width: 100vw;
 	max-width: 1920px;
 	height: 200px;
 	margin: 0 auto;
@@ -1596,7 +1594,7 @@ html {
 }
 
 .foot-col-3rd {
-	flex: 1 0 28%;
+	flex: 0 0 28%;
 	margin-top: 80px;
 }
 
@@ -1630,7 +1628,7 @@ html {
 
 @media (max-width: 1230px) {
 	.foot__content {
-		padding: 0px 15px;
+		padding: 0px 15px 20px;
 	}
 
 	.foot-col-1st {
@@ -1684,18 +1682,17 @@ html {
 	}
 
 	.foot-col-1st {
-		flex: 0 0 98%;
+		flex: 0 0 90%;
 	}
 
 	.foot-col-2nd {
 		flex: 0 0 70%;
-		margin: 20px 50px;
+		margin: 0 0 20px 0;
 	}
 
 	.foot-col-3rd {
-		flex: 0 0 70%;
+		flex: 0 0 50%;
 		margin: 40px auto;
-		text-align: center;
 	}
 
 	.foot-blogs {
